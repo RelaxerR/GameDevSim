@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="GameDevSim.Application/GameDevSim.Application.csproj" />
+  <Project Path="GameDevSim.Domain/GameDevSim.Domain.csproj" />
+  <Project Path="GameDevSim.Server/GameDevSim.Server.csproj" />
+</Solution>
