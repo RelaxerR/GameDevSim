@@ -109,7 +109,6 @@ public class Specialist(
       throw new InvalidOperationException("Невозможно нанять специалиста. Он был уволен ранее и покинул студию навсегда.");
 
     MonthsHired[monthNumber - 1] = monthNumber;
-    ResetAndGrantResources();
   }
 
   /// <summary>
