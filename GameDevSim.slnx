@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="GameDevSim.Application/GameDevSim.Application.csproj" />
+  <Project Path="GameDevSim.Domain.Tests\GameDevSim.Domain.Tests.csproj" Type="Classic C#" />
   <Project Path="GameDevSim.Domain/GameDevSim.Domain.csproj" />
   <Project Path="GameDevSim.Server/GameDevSim.Server.csproj" />
 </Solution>
