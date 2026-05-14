@@ -78,10 +78,12 @@ public class PlayerBoard
     var targetArray = targetType switch
     {
       ResourceType.Code => CodeResourcesAdded,
-      ResourceType.Art => ArtResourcesAdded,
-      ResourceType.Doc => DocResourcesAdded,
+      ResourceType.Art  => ArtResourcesAdded,
+      ResourceType.Doc  => DocResourcesAdded,
+      ResourceType.Joker => throw new ArgumentException("Основной проект не содержит отдельной категории для Joker. Выберите конкретную цель."),
       _ => throw new ArgumentOutOfRangeException(nameof(targetType))
     };
+
 
     // Считаем текущее количество уже заполненных слотов (где значение > 0)
     var currentFilledSlots = targetArray.Count(v => v > 0);
